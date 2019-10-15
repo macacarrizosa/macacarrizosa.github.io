@@ -1,23 +1,91 @@
+:root {
+	--primary: #000626;
+	--secondary: #3a718c;
+	--third: #78b1bf;
+	--fourth: #60a1a5;
+	--light: #eff7ff;
+	--mainwidthmax: 700px;
+	--mainwidth: 80%;
+}
+
+
 body{
 	font-family: 'Hepta Slab', serif;
-
 }
 
 h1{
-	color: blue;
-	font-size: 24px;
+	color: var(--primary);
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+
+h2{
+	color: var(--primary);
+	font-size: 18px;
 	font-weight: normal;
 	text-align: center;
 	font-family: 'Playfair Display', serif;
 }
 
 p{
-	color: purple;
-	font-size: 24px;
+	color: var(--primary);
+	font-size: 18px;
 	font-weight: normal;
-	text-align: center;
 	font-family: 'Playfair Display', serif;
 }
+
+.caption {
+	color: var(--secondary);
+	display: block;
+	font-size: 12px;
+	line-height: 1px;
+	font-weight: lighter;
+	font-family: 'Playfair Display', serif;
+}
+
+.copy {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: var(--mainwidthmax);
+	width: var(--mainwidth);
+}
+
+.image {
+	display: inline-block;
+	/*text-align: center;*/
+	margin-left: auto;
+	margin-right: auto;
+	max-width: var(--mainwidthmax);
+	width: var(--mainwidth);
+}
+
+.fullimage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1080px;
+	width: 100%;
+}
+
+.quote {
+	color: var(--secondary);
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+
+}
+
+
+
+
+
+
+	
+
 
 
 /*
