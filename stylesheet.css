@@ -8,9 +8,12 @@
 	--mainwidth: 80%;
 }
 
+a{ color: var(--secondary);
+}
 
 body{
 	font-family: 'Hepta Slab', serif;
+	background-color: #eff7ff;
 }
 
 h1{
@@ -45,13 +48,15 @@ p{
 	font-family: 'Playfair Display', serif;
 }
 
-.caption {
+figcaption {
 	color: var(--secondary);
 	display: block;
+		margin: 0 auto;
 	font-size: 12px;
-	line-height: 1px;
 	font-weight: lighter;
 	font-family: 'Playfair Display', serif;
+		max-width: var(--mainwidthmax);
+	width: var(--mainwidth);
 }
 
 .copy {
@@ -63,10 +68,9 @@ p{
 }
 
 .image {
-	display: inline-block;
+	display: block;
 	/*text-align: center;*/
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	max-width: var(--mainwidthmax);
 	width: var(--mainwidth);
 }
@@ -79,29 +83,37 @@ p{
 	width: 100%;
 }
 
+.table {
+	font-family: 'Hepta Slab', serif;
+	font-size: 18px;
+   /* text-align: center;*/
+	margin: 0 auto;
+    display: block;
+   width: 50%;
+    }
+
+table{
+	width: 100%;
+}
+
+th{
+	text-align: left;
+}
 .quote {
 	color: var(--fourth);
 	font-size: 22px;
 	font-weight: bold;
 	text-align: center;
 	font-family: 'Playfair Display', serif;
-
 }
 
-
-
-
-
-
-	
-
-
-
-/*
-.odd {
-  color:red;
+td{
+	width: 60px;
 }
 
-.even {
-  text-transform: uppercase;
-}*/
+.table h2{
+	text-align: center;
+	font-family: 'Hepta Slab', serif;
+	font-weight: bold;
+}
+
