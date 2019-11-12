@@ -51,11 +51,11 @@ p{
 figcaption {
 	color: var(--secondary);
 	display: block;
-		margin: 0 auto;
+	margin: 0 auto;
 	font-size: 12;
 	font-weight: lighter;
 	font-family: 'Playfair Display', serif;
-		max-width: var(--mainwidthmax);
+	max-width: var(--mainwidthmax);
 	width: var(--mainwidth);
 }
 
@@ -68,8 +68,10 @@ figcaption {
 }
 
 .image {
-	display: block;
-	/*text-align: center;*/
+	/*display: block;*/
+	/*text-align: left;*/
+	align-content: normal;
+
 	margin: 0 auto;
 	max-width: var(--mainwidthmax);
 	width: var(--mainwidth);
@@ -115,4 +117,5 @@ td{
 	text-align: center;
 	font-family: 'Hepta Slab', serif;
 	font-weight: bold;
+
 }
