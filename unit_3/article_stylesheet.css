@@ -27,7 +27,7 @@ h1{
 h2{
 	color: var(--primary);
 	font-size: 18px;
-	font-weight: normal;
+	font-weight: bold;
 /*	text-align: center;
 */	font-family: 'Playfair Display', serif;
 }
